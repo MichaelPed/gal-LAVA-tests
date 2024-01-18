@@ -1,0 +1,11 @@
+metadata:
+    format: Lava-Test Test Definition 1.0
+    name: ssh-attempt
+    description: "Attempt to ssh into controller."
+
+params:
+    KEY: None
+
+run:
+  steps:
+    - ./setup.sh "{KEY}"
