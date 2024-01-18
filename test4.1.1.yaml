@@ -8,5 +8,6 @@ params:
 
 run:
   steps:
-    - chmod a+x setup.sh
+    - chmod -R a+x *.sh
     - ./setup.sh "{KEY}"
+    - ./invoke_conn.sh "{TARGET}"
