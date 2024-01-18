@@ -9,6 +9,7 @@ params:
 run:
   steps:
     - chmod -R a+x *.sh
+    - apt update
     - apt -y install openssh-client
     - ./setup.sh "{KEY}"
     - ./invoke_conn.sh "{TARGET}"
