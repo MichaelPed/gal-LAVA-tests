@@ -8,4 +8,5 @@ params:
 
 run:
   steps:
-    - sudo ./setup.sh "{KEY}"
+    - chmod a+x setup.sh
+    - ./setup.sh "{KEY}"
